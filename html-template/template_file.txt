@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+ 		<link rel="stylesheet" type="text/css" href="/usr/local/html-template/css/bootstrap.min.css">
+		<!-- <link rel="stylesheet" type="text/css" href="/root/mycss/editormd.css"> -->
+		<link rel="stylesheet" type="text/css" href="/usr/local/html-template/css/style.css" media="screen,print">
+	</head>
+	<body>
+		<div class="markdown-body editormd-preview-container">%s</div>
+	</body>
+</html>

@@ -1,0 +1,80 @@
+thead,tfoot {
+    display: table-row-group;
+}
+tr {
+    page-break-before: always !important;
+    page-break-after: always !important;
+    page-break-inside: avoid !important;
+}
+table {
+    word-wrap: break-word;
+}
+table td{
+    word-break: break-all;
+}
+code {
+    page-break-inside: avoid !important;
+
+}
+@media print {
+ pre {
+   page-break-inside: avoid !important;
+ }
+
+}
+.editormd-preview-container table thead tr, .editormd-html-preview table thead tr {
+  background-color: #F8F8F8;
+}
+.editormd-preview-theme-dark .editormd-preview-container table {
+  border: none;
+}
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body table,
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+#mytitle {
+	height: 30px;
+}
+.my-header-area {
+	display: block;
+}
+.my-inner-area {
+	font-size: 2.5em;
+	font-weight: bold;
+}
