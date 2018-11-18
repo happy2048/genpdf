@@ -1,10 +1,10 @@
-##genpdf:
+## genpdf:
 
 本软件基于wkhtmltopdf，做成了web server形式。
 
 使用方法：
 
-###安装genpdf-server
+### 安装genpdf-server
 
 
 直接用docker启动：
@@ -28,7 +28,7 @@
 上面这条api只能在宿主机或者容器内以"127.0.0.1"或"localhost"为ip进行调用。
 
 
-###安装客户端
+### 安装客户端
 
 
 	[root@localhost ~]# git clone https://github.com/happy2048/genpdf.git
@@ -87,7 +87,7 @@
 
 -d: 打印wkhtmltopdf相关选项
 
-###使用示例
+### 使用示例
 
 1.打印www.baidu.com这个网页：
 
@@ -101,7 +101,7 @@
 
 	[root@localhost ~]# genpdf -t body /mnt/body.html test.pdf
 
-###使用API调用：
+### 使用API调用：
 
 可以使用http方式调用：
 
